@@ -20,6 +20,4 @@ module "ec2_instance_credential_exfiltration" {
 }
 ```
 ## Author
-Module managed by https://github.com/offensive-terraform/
-
-
+Module managed by https://github.com/iganbold
