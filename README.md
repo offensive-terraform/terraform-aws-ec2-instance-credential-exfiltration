@@ -6,7 +6,7 @@
 
 Offensive Terraform module which creates EC2 instance and exfiltrate credential from Instance metadata to external URL.
 
-![Attack Diagram](https://github.com/offensive-terraform/terraform-aws-ec2-instance-credential-exfiltration/blob/master/diagram.jpg)
+![Attack Diagram](https://raw.githubusercontent.com/offensive-terraform/terraform-aws-ec2-instance-credential-exfiltration/master/diagram.jpg)
 
 ## Usage
 ```
