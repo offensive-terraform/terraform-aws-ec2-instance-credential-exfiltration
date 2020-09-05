@@ -1,8 +1,10 @@
 # AWS EC2 Instance Credential Exfiltration Module
 
 ![OffensiveTerraform](https://img.shields.io/badge/offensive-terraform-purple)
+![OffensiveTerraform](https://img.shields.io/badge/hack-green)
 
-Offensive Terraform module which creates EC2 instance and exfilrate credential from Instance metadata to external URL.
+
+Offensive Terraform module which creates EC2 instance and exfiltrate credential from Instance metadata to external URL.
 
 ![Attack Diagram](https://github.com/offensive-terraform/terraform-aws-ec2-instance-credential-exfiltration/blob/master/diagram.jpg)
 
